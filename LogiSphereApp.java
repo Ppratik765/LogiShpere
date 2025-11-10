@@ -130,7 +130,6 @@ class MainFrame extends JFrame {
         tipsArea.setMargin(new Insets(10, 10, 10, 10));
         tipsArea.setText(
             "Use the buttons above to open department dashboards.\n" +
-            "This demo keeps data in memory. To persist, I can add JSON/CSV or JDBC features.\n\n" +
             "Quick tips:\n" +
             " - Use Inventory to add/update/delete products and view reorder alerts.\n" +
             " - Use Supplier to manage suppliers and place orders.\n" +
@@ -398,4 +397,5 @@ class LoginDialog extends JDialog {
     public boolean isSucceeded() {
         return succeeded;
     }
+
 }
